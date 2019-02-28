@@ -6,6 +6,7 @@ def line(array)
       counter = 1 
       array.each do |name|
         nuarray.push ("#{counter}. #{name}")
+        counter += 1 
         
 end
 
