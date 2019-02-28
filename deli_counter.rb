@@ -8,7 +8,7 @@ def line(array)
         nuarray.push ("#{counter}. #{name}")
         counter += 1 
     end
-      puts 
+      puts "The line is currently:
 end
 
 
