@@ -16,7 +16,8 @@ end
 
 
 def take_a_number(line, new_person)
-    
+    line.push(new_person)
+    puts "Hello"
 end
 
 
