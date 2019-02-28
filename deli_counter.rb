@@ -1,7 +1,10 @@
 katz_deli = ["Moshe", "Fayge", "Rivki"]
 
 def line(array) 
-    if array.length >= 1
+    if array.length >= 1 
+      nuarray = []
+      counter = 1 
+      
 end
 
 
