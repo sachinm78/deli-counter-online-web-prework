@@ -7,7 +7,8 @@ def line(array)
       array.each do |name|
         nuarray.push ("#{counter}. #{name}")
         counter += 1 
-        
+    end
+      puts 
 end
 
 
