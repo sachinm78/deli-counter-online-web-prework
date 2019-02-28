@@ -17,16 +17,22 @@ end
 
 def take_a_number(line, new_person)
     line.push(new_person)
-    puts "Welcome, #{new_person}. You are number #{line.length} in line." 
+    puts "Welcome, #{new_person}. You are number #{line.length} in line."
 end
 
 
-
 def now_serving(line)
-  if line.length == 0 # could say: "if deli.empty?"
+    if line.length == 0 
+      puts "There is nobody waiting to be served!"
+    else
+      puts ""
+  
+  
+  now_serving(line)
+  if line.length == 0 
     puts"There is nobody waiting to be served!"
   else
-    puts "Currently serving #{line[0]}." # could say: "Currently serving #{line.first}."
-    line.shift # this works in the IDE but no on repl.it
+    puts "Currently serving #{line[0]}." 
+    line.shift 
   end
 end
