@@ -1,7 +1,7 @@
 katz_deli = ["Moshe", "Fayge", "Rivki"]
 
 def line(array) 
-    if 
+    if array.length >=
 end
 
 
